@@ -41,17 +41,19 @@ namespace ToDoListAPI
         }
         
         /// <summary>
-        /// Initializes a new instance of the ToDoListDataAPI class.
+        /// Initializes a new instance of the ToDoListDataAPI20170305022645
+        /// class.
         /// </summary>
         public ToDoListDataAPI()
             : base()
         {
             this._toDoList = new ToDoList(this);
-            this._baseUri = new Uri("http://localhost:45914");
+            this._baseUri = new Uri("https://todolistdataapi20170305022645.azurewebsites.net:443");
         }
         
         /// <summary>
-        /// Initializes a new instance of the ToDoListDataAPI class.
+        /// Initializes a new instance of the ToDoListDataAPI20170305022645
+        /// class.
         /// </summary>
         /// <param name='handlers'>
         /// Optional. The set of delegating handlers to insert in the http
@@ -61,11 +63,12 @@ namespace ToDoListAPI
             : base(handlers)
         {
             this._toDoList = new ToDoList(this);
-            this._baseUri = new Uri("http://localhost:45914");
+            this._baseUri = new Uri("https://todolistdataapi20170305022645.azurewebsites.net:443");
         }
         
         /// <summary>
-        /// Initializes a new instance of the ToDoListDataAPI class.
+        /// Initializes a new instance of the ToDoListDataAPI20170305022645
+        /// class.
         /// </summary>
         /// <param name='rootHandler'>
         /// Optional. The http client handler used to handle http transport.
@@ -78,11 +81,12 @@ namespace ToDoListAPI
             : base(rootHandler, handlers)
         {
             this._toDoList = new ToDoList(this);
-            this._baseUri = new Uri("http://localhost:45914");
+            this._baseUri = new Uri("https://todolistdataapi20170305022645.azurewebsites.net:443");
         }
         
         /// <summary>
-        /// Initializes a new instance of the ToDoListDataAPI class.
+        /// Initializes a new instance of the ToDoListDataAPI20170305022645
+        /// class.
         /// </summary>
         /// <param name='baseUri'>
         /// Optional. The base URI of the service.
@@ -102,7 +106,8 @@ namespace ToDoListAPI
         }
         
         /// <summary>
-        /// Initializes a new instance of the ToDoListDataAPI class.
+        /// Initializes a new instance of the ToDoListDataAPI20170305022645
+        /// class.
         /// </summary>
         /// <param name='credentials'>
         /// Required. Credentials for authenticating with the service.
@@ -127,7 +132,8 @@ namespace ToDoListAPI
         }
         
         /// <summary>
-        /// Initializes a new instance of the ToDoListDataAPI class.
+        /// Initializes a new instance of the ToDoListDataAPI20170305022645
+        /// class.
         /// </summary>
         /// <param name='baseUri'>
         /// Optional. The base URI of the service.

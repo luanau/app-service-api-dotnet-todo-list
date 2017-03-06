@@ -6,7 +6,7 @@ using System.Linq;
 
 namespace ToDoListAPI
 {
-    public static partial class ToDoListDataAPIExtensions
+    public static partial class ToDoListDataAPI20170305022645Extensions
     {
     }
 }

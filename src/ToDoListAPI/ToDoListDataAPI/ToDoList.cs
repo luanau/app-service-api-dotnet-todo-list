@@ -33,7 +33,7 @@ namespace ToDoListAPI
         private ToDoListDataAPI _client;
         
         /// <summary>
-        /// Gets a reference to the ToDoListAPI.ToDoListDataAPI.
+        /// Gets a reference to the ToDoListAPI.ToDoListDataAPI20170305022645.
         /// </summary>
         public ToDoListDataAPI Client
         {

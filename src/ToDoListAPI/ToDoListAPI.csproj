@@ -154,6 +154,11 @@
     <Compile Include="ToDoListDataAPI\ToDoListExtensions.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Properties\PublishProfiles\ToDoListAPI20170305031221 - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\ToDoListAPI20170305033953 - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\ToDoListAPI20170305034303 - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\ToDoListDataAPI20170305022645 - Web Deploy %282%29.pubxml" />
+    <None Include="Properties\PublishProfiles\ToDoListDataAPI20170305022645 - Web Deploy.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
