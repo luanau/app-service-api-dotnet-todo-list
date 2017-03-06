@@ -1,3 +1,4 @@
+**I cloned this from https://github.com/Azure-Samples/app-service-api-dotnet-todo-list.git to go through the exercises.**
 ---
 services: app-service\api
 platforms: dotnet
